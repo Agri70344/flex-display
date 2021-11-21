@@ -1,0 +1,33 @@
+#header{
+    
+    text-align:center;
+    margin:30px;
+    
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+
+p::after{
+        width: 150px;
+        height: 5px;
+        content: ' ';
+        background-color: teal;
+        display: block;
+        margin:0 auto;
+        margin-top: 3px;
+    }
